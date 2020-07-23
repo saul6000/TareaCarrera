@@ -149,5 +149,12 @@ namespace Tarea_CRUD
                 }
             }
         }
+
+        private void btbbusqueda_Click(object sender, EventArgs e)
+        {
+            Buscar B = new Buscar();
+                B.ShowDialog();
+
+        }
     }
 }

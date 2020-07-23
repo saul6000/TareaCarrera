@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
-using System.Data.SqlClient;
 using System.Runtime.CompilerServices;
 using System.Windows.Forms;
 namespace Tarea_CRUD.Modelo

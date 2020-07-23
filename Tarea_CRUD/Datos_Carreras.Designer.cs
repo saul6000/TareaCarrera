@@ -46,19 +46,24 @@
             this.btbCerrar = new System.Windows.Forms.Button();
             this.btbdelete = new System.Windows.Forms.Button();
             this.txtdelete = new System.Windows.Forms.TextBox();
+            this.btbbusqueda = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.djcarrera)).BeginInit();
             this.SuspendLayout();
             // 
             // txtcodigo
             // 
+            this.txtcodigo.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtcodigo.Location = new System.Drawing.Point(163, 45);
+            this.txtcodigo.MaxLength = 7;
             this.txtcodigo.Name = "txtcodigo";
             this.txtcodigo.Size = new System.Drawing.Size(282, 22);
             this.txtcodigo.TabIndex = 0;
             // 
             // txtmteria
             // 
+            this.txtmteria.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtmteria.Location = new System.Drawing.Point(163, 103);
+            this.txtmteria.MaxLength = 100;
             this.txtmteria.Name = "txtmteria";
             this.txtmteria.Size = new System.Drawing.Size(282, 22);
             this.txtmteria.TabIndex = 1;
@@ -66,7 +71,9 @@
             // 
             // txtcreditos
             // 
+            this.txtcreditos.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtcreditos.Location = new System.Drawing.Point(163, 170);
+            this.txtcreditos.MaxLength = 4;
             this.txtcreditos.Name = "txtcreditos";
             this.txtcreditos.Size = new System.Drawing.Size(282, 22);
             this.txtcreditos.TabIndex = 2;
@@ -74,7 +81,9 @@
             // 
             // txtcarrera
             // 
+            this.txtcarrera.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtcarrera.Location = new System.Drawing.Point(163, 243);
+            this.txtcarrera.MaxLength = 100;
             this.txtcarrera.Name = "txtcarrera";
             this.txtcarrera.Size = new System.Drawing.Size(282, 22);
             this.txtcarrera.TabIndex = 3;
@@ -82,7 +91,9 @@
             // 
             // txtnivel
             // 
+            this.txtnivel.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtnivel.Location = new System.Drawing.Point(163, 325);
+            this.txtnivel.MaxLength = 1;
             this.txtnivel.Name = "txtnivel";
             this.txtnivel.Size = new System.Drawing.Size(282, 22);
             this.txtnivel.TabIndex = 4;
@@ -91,24 +102,27 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(25, 50);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 17);
+            this.label1.Size = new System.Drawing.Size(50, 17);
             this.label1.TabIndex = 5;
             this.label1.Text = "Código";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(25, 108);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 17);
+            this.label2.Size = new System.Drawing.Size(56, 17);
             this.label2.TabIndex = 6;
             this.label2.Text = "Materia";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(25, 175);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 17);
@@ -118,15 +132,17 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(25, 248);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 17);
+            this.label4.Size = new System.Drawing.Size(61, 17);
             this.label4.TabIndex = 8;
             this.label4.Text = "Carrera ";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(25, 330);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(39, 17);
@@ -154,6 +170,7 @@
             this.linkModificar.HeaderText = "Acción";
             this.linkModificar.MinimumWidth = 6;
             this.linkModificar.Name = "linkModificar";
+            this.linkModificar.ReadOnly = true;
             this.linkModificar.Text = "Modificar";
             this.linkModificar.UseColumnTextForLinkValue = true;
             this.linkModificar.Width = 125;
@@ -163,12 +180,14 @@
             this.linkEliminar.HeaderText = "Acción";
             this.linkEliminar.MinimumWidth = 6;
             this.linkEliminar.Name = "linkEliminar";
+            this.linkEliminar.ReadOnly = true;
             this.linkEliminar.Text = "Eliminar";
             this.linkEliminar.UseColumnTextForLinkValue = true;
             this.linkEliminar.Width = 125;
             // 
             // btbguardar
             // 
+            this.btbguardar.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btbguardar.Location = new System.Drawing.Point(503, 27);
             this.btbguardar.Name = "btbguardar";
             this.btbguardar.Size = new System.Drawing.Size(118, 59);
@@ -179,6 +198,7 @@
             // 
             // btblimpiar
             // 
+            this.btblimpiar.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btblimpiar.Location = new System.Drawing.Point(503, 108);
             this.btblimpiar.Name = "btblimpiar";
             this.btblimpiar.Size = new System.Drawing.Size(118, 54);
@@ -188,6 +208,7 @@
             // 
             // btbCerrar
             // 
+            this.btbCerrar.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btbCerrar.Location = new System.Drawing.Point(503, 194);
             this.btbCerrar.Name = "btbCerrar";
             this.btbCerrar.Size = new System.Drawing.Size(118, 54);
@@ -198,6 +219,7 @@
             // 
             // btbdelete
             // 
+            this.btbdelete.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btbdelete.Location = new System.Drawing.Point(503, 278);
             this.btbdelete.Name = "btbdelete";
             this.btbdelete.Size = new System.Drawing.Size(128, 56);
@@ -208,16 +230,30 @@
             // 
             // txtdelete
             // 
+            this.txtdelete.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtdelete.Location = new System.Drawing.Point(637, 295);
+            this.txtdelete.MaxLength = 7;
             this.txtdelete.Name = "txtdelete";
             this.txtdelete.Size = new System.Drawing.Size(192, 22);
             this.txtdelete.TabIndex = 15;
+            // 
+            // btbbusqueda
+            // 
+            this.btbbusqueda.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btbbusqueda.Location = new System.Drawing.Point(682, 144);
+            this.btbbusqueda.Name = "btbbusqueda";
+            this.btbbusqueda.Size = new System.Drawing.Size(201, 73);
+            this.btbbusqueda.TabIndex = 16;
+            this.btbbusqueda.Text = "Buscar";
+            this.btbbusqueda.UseVisualStyleBackColor = true;
+            this.btbbusqueda.Click += new System.EventHandler(this.btbbusqueda_Click);
             // 
             // Datos_Carreras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(946, 548);
+            this.Controls.Add(this.btbbusqueda);
             this.Controls.Add(this.txtdelete);
             this.Controls.Add(this.btbdelete);
             this.Controls.Add(this.btbCerrar);
@@ -263,6 +299,7 @@
         private System.Windows.Forms.TextBox txtdelete;
         private System.Windows.Forms.DataGridViewLinkColumn linkModificar;
         private System.Windows.Forms.DataGridViewLinkColumn linkEliminar;
+        private System.Windows.Forms.Button btbbusqueda;
     }
 }
 

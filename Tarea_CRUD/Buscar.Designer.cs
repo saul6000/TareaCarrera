@@ -1,6 +1,6 @@
 ﻿namespace Tarea_CRUD
 {
-    partial class FrmModificar
+    partial class Buscar
     {
         /// <summary>
         /// Required designer variable.
@@ -38,134 +38,149 @@
             this.txtcreditos = new System.Windows.Forms.TextBox();
             this.txtmteria = new System.Windows.Forms.TextBox();
             this.txtcodigo = new System.Windows.Forms.TextBox();
-            this.btbCambios = new System.Windows.Forms.Button();
-            this.btbcerrar = new System.Windows.Forms.Button();
+            this.btnCargar = new System.Windows.Forms.Button();
+            this.cmCodigo = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(29, 327);
+            this.label5.Location = new System.Drawing.Point(94, 303);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(39, 17);
-            this.label5.TabIndex = 19;
+            this.label5.TabIndex = 29;
             this.label5.Text = "Nivel";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(29, 245);
+            this.label4.Location = new System.Drawing.Point(83, 243);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(61, 17);
-            this.label4.TabIndex = 18;
+            this.label4.TabIndex = 28;
             this.label4.Text = "Carrera ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(29, 172);
+            this.label3.Location = new System.Drawing.Point(83, 180);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 17);
-            this.label3.TabIndex = 17;
+            this.label3.TabIndex = 27;
             this.label3.Text = "Creditos";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(29, 105);
+            this.label2.Location = new System.Drawing.Point(83, 141);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(56, 17);
-            this.label2.TabIndex = 16;
+            this.label2.TabIndex = 26;
             this.label2.Text = "Materia";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(29, 47);
+            this.label1.Location = new System.Drawing.Point(83, 85);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 17);
-            this.label1.TabIndex = 15;
+            this.label1.TabIndex = 25;
             this.label1.Text = "Código";
             // 
             // txtnivel
             // 
+            this.txtnivel.Enabled = false;
             this.txtnivel.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnivel.Location = new System.Drawing.Point(167, 322);
+            this.txtnivel.Location = new System.Drawing.Point(227, 298);
             this.txtnivel.MaxLength = 1;
             this.txtnivel.Name = "txtnivel";
             this.txtnivel.Size = new System.Drawing.Size(282, 22);
-            this.txtnivel.TabIndex = 14;
+            this.txtnivel.TabIndex = 24;
             // 
             // txtcarrera
             // 
+            this.txtcarrera.Enabled = false;
             this.txtcarrera.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtcarrera.Location = new System.Drawing.Point(167, 240);
+            this.txtcarrera.Location = new System.Drawing.Point(227, 238);
             this.txtcarrera.MaxLength = 100;
             this.txtcarrera.Name = "txtcarrera";
             this.txtcarrera.Size = new System.Drawing.Size(282, 22);
-            this.txtcarrera.TabIndex = 13;
+            this.txtcarrera.TabIndex = 23;
             // 
             // txtcreditos
             // 
+            this.txtcreditos.Enabled = false;
             this.txtcreditos.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtcreditos.Location = new System.Drawing.Point(167, 167);
+            this.txtcreditos.Location = new System.Drawing.Point(227, 175);
             this.txtcreditos.MaxLength = 4;
             this.txtcreditos.Name = "txtcreditos";
             this.txtcreditos.Size = new System.Drawing.Size(282, 22);
-            this.txtcreditos.TabIndex = 12;
+            this.txtcreditos.TabIndex = 22;
             // 
             // txtmteria
             // 
+            this.txtmteria.Enabled = false;
             this.txtmteria.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtmteria.Location = new System.Drawing.Point(167, 100);
+            this.txtmteria.Location = new System.Drawing.Point(227, 121);
             this.txtmteria.MaxLength = 100;
             this.txtmteria.Name = "txtmteria";
             this.txtmteria.Size = new System.Drawing.Size(282, 22);
-            this.txtmteria.TabIndex = 11;
+            this.txtmteria.TabIndex = 21;
             // 
             // txtcodigo
             // 
             this.txtcodigo.Enabled = false;
             this.txtcodigo.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtcodigo.Location = new System.Drawing.Point(167, 42);
+            this.txtcodigo.Location = new System.Drawing.Point(227, 80);
             this.txtcodigo.Name = "txtcodigo";
             this.txtcodigo.Size = new System.Drawing.Size(282, 22);
-            this.txtcodigo.TabIndex = 10;
+            this.txtcodigo.TabIndex = 20;
             // 
-            // btbCambios
+            // btnCargar
             // 
-            this.btbCambios.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btbCambios.Location = new System.Drawing.Point(543, 84);
-            this.btbCambios.Name = "btbCambios";
-            this.btbCambios.Size = new System.Drawing.Size(118, 59);
-            this.btbCambios.TabIndex = 20;
-            this.btbCambios.Text = "Aplicar Cambios ";
-            this.btbCambios.UseVisualStyleBackColor = true;
-            this.btbCambios.Click += new System.EventHandler(this.btbCambios_Click);
+            this.btnCargar.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCargar.Location = new System.Drawing.Point(543, 19);
+            this.btnCargar.Name = "btnCargar";
+            this.btnCargar.Size = new System.Drawing.Size(164, 44);
+            this.btnCargar.TabIndex = 71;
+            this.btnCargar.Text = "Cargar";
+            this.btnCargar.UseVisualStyleBackColor = true;
             // 
-            // btbcerrar
+            // cmCodigo
             // 
-            this.btbcerrar.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btbcerrar.Location = new System.Drawing.Point(543, 203);
-            this.btbcerrar.Name = "btbcerrar";
-            this.btbcerrar.Size = new System.Drawing.Size(118, 59);
-            this.btbcerrar.TabIndex = 21;
-            this.btbcerrar.Text = "cerrar";
-            this.btbcerrar.UseVisualStyleBackColor = true;
-            this.btbcerrar.Click += new System.EventHandler(this.btbcerrar_Click);
+            this.cmCodigo.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.cmCodigo.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmCodigo.FormattingEnabled = true;
+            this.cmCodigo.Location = new System.Drawing.Point(227, 30);
+            this.cmCodigo.Name = "cmCodigo";
+            this.cmCodigo.Size = new System.Drawing.Size(282, 24);
+            this.cmCodigo.TabIndex = 70;
+            this.cmCodigo.SelectedIndexChanged += new System.EventHandler(this.cmCodigo_SelectedIndexChanged);
             // 
-            // FrmModificar
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(12, 33);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(192, 17);
+            this.label6.TabIndex = 69;
+            this.label6.Text = "Selecione la materia a buscar ";
+            // 
+            // Buscar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(668, 378);
-            this.Controls.Add(this.btbcerrar);
-            this.Controls.Add(this.btbCambios);
+            this.ClientSize = new System.Drawing.Size(749, 333);
+            this.Controls.Add(this.btnCargar);
+            this.Controls.Add(this.cmCodigo);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -176,8 +191,9 @@
             this.Controls.Add(this.txtcreditos);
             this.Controls.Add(this.txtmteria);
             this.Controls.Add(this.txtcodigo);
-            this.Name = "FrmModificar";
-            this.Text = "FrmModificar";
+            this.Name = "Buscar";
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -195,7 +211,8 @@
         private System.Windows.Forms.TextBox txtcreditos;
         private System.Windows.Forms.TextBox txtmteria;
         private System.Windows.Forms.TextBox txtcodigo;
-        private System.Windows.Forms.Button btbCambios;
-        private System.Windows.Forms.Button btbcerrar;
+        private System.Windows.Forms.Button btnCargar;
+        private System.Windows.Forms.ComboBox cmCodigo;
+        private System.Windows.Forms.Label label6;
     }
 }

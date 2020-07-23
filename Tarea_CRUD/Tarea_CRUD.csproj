@@ -52,6 +52,12 @@
     <Compile Include="Datos_Carreras.Designer.cs">
       <DependentUpon>Datos_Carreras.cs</DependentUpon>
     </Compile>
+    <Compile Include="Buscar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscar.Designer.cs">
+      <DependentUpon>Buscar.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmModificar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Datos_Carreras.resx">
       <DependentUpon>Datos_Carreras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscar.resx">
+      <DependentUpon>Buscar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmModificar.resx">
       <DependentUpon>FrmModificar.cs</DependentUpon>
