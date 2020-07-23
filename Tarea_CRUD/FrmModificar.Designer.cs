@@ -48,9 +48,9 @@
             this.label5.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(29, 327);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(39, 17);
+            this.label5.Size = new System.Drawing.Size(44, 17);
             this.label5.TabIndex = 19;
-            this.label5.Text = "Nivel";
+            this.label5.Text = "Nivel:";
             // 
             // label4
             // 
@@ -58,9 +58,9 @@
             this.label4.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(29, 245);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 17);
+            this.label4.Size = new System.Drawing.Size(62, 17);
             this.label4.TabIndex = 18;
-            this.label4.Text = "Carrera ";
+            this.label4.Text = "Carrera:";
             // 
             // label3
             // 
@@ -68,9 +68,9 @@
             this.label3.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(29, 172);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 17);
+            this.label3.Size = new System.Drawing.Size(65, 17);
             this.label3.TabIndex = 17;
-            this.label3.Text = "Creditos";
+            this.label3.Text = "Creditos:";
             // 
             // label2
             // 
@@ -78,9 +78,9 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(29, 105);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 17);
+            this.label2.Size = new System.Drawing.Size(61, 17);
             this.label2.TabIndex = 16;
-            this.label2.Text = "Materia";
+            this.label2.Text = "Materia:";
             // 
             // label1
             // 
@@ -88,9 +88,9 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(29, 47);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 17);
+            this.label1.Size = new System.Drawing.Size(55, 17);
             this.label1.TabIndex = 15;
-            this.label1.Text = "Código";
+            this.label1.Text = "Código:";
             // 
             // txtnivel
             // 

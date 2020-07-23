@@ -105,9 +105,9 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(25, 50);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 17);
+            this.label1.Size = new System.Drawing.Size(55, 17);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Código";
+            this.label1.Text = "Código:";
             // 
             // label2
             // 
@@ -115,9 +115,9 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(25, 108);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 17);
+            this.label2.Size = new System.Drawing.Size(61, 17);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Materia";
+            this.label2.Text = "Materia:";
             // 
             // label3
             // 
@@ -125,9 +125,9 @@
             this.label3.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(25, 175);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 17);
+            this.label3.Size = new System.Drawing.Size(65, 17);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Creditos";
+            this.label3.Text = "Creditos:";
             // 
             // label4
             // 
@@ -135,9 +135,9 @@
             this.label4.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(25, 248);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 17);
+            this.label4.Size = new System.Drawing.Size(62, 17);
             this.label4.TabIndex = 8;
-            this.label4.Text = "Carrera ";
+            this.label4.Text = "Carrera:";
             // 
             // label5
             // 
@@ -145,9 +145,9 @@
             this.label5.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(25, 330);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(39, 17);
+            this.label5.Size = new System.Drawing.Size(44, 17);
             this.label5.TabIndex = 9;
-            this.label5.Text = "Nivel";
+            this.label5.Text = "Nivel:";
             // 
             // djcarrera
             // 
