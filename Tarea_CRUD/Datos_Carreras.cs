@@ -111,31 +111,31 @@ namespace Tarea_CRUD
         private void djcarrera_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             DataGridView grid = (DataGridView)sender;
+            int fila = e.RowIndex;
+            string materia = djcarrera[3, fila].Value.ToString();
+            
             if (grid.Columns[e.ColumnIndex].Name == "linkEliminar")
-            {
-                int fila = e.RowIndex;
+            {               
                 // MessageBox.Show("Fila: " + fila.ToString() + ", col: " + col.ToString());
                 string codgio = djcarrera[2, fila].Value.ToString();
-                string confirmMessage = string.Format("¿Está seguro de que desea eliminar a la persona de numero de código {0}?"
+                string confirmMessage = string.Format("¿Está seguro de que desea eliminar la materia de " + " "+materia+"?"
                     , grid.Rows[fila].Cells[2].Value);
                 if (MessageBox.Show(confirmMessage, "Eliminar Persona", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     MessageBox.Show("Registro Eliminado Exitosamente");
                     grid.Rows.RemoveAt(fila);
                     int x = Tarea_CRUD.Modelo.DatosCarreraDAO.btbdelete(codgio);
-
-
                 }
 
 
             }
             if (grid.Columns[e.ColumnIndex].Name == "linkModificar")
             {
-                int fila = e.RowIndex;
+                 
                 // MessageBox.Show("Fila: " + fila.ToString() + ", col: " + col.ToString());
                 string codgio = djcarrera[2, fila].Value.ToString();
-                string materia = djcarrera[3, fila].Value.ToString();
-                string confirmMessage = string.Format("¿Está seguro de que desea Modificar  la materia"+" "+materia+"?"
+                
+                string confirmMessage = string.Format("¿Está seguro de que desea Modificar  la materia de "+" "+materia+"?"
                     , grid.Rows[fila].Cells[2].Value);
                 if (MessageBox.Show(confirmMessage, "Eliminar Persona", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
@@ -154,7 +154,6 @@ namespace Tarea_CRUD
         {
             Buscar B = new Buscar();
                 B.ShowDialog();
-
         }
     }
 }
