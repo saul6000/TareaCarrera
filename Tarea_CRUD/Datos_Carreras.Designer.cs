@@ -271,6 +271,7 @@
             this.Controls.Add(this.txtcreditos);
             this.Controls.Add(this.txtmteria);
             this.Controls.Add(this.txtcodigo);
+            this.MaximizeBox = false;
             this.Name = "Datos_Carreras";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Datos de Carrera ";

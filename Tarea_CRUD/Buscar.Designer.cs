@@ -179,6 +179,7 @@
             this.Controls.Add(this.txtcreditos);
             this.Controls.Add(this.txtmteria);
             this.Controls.Add(this.txtcodigo);
+            this.MaximizeBox = false;
             this.Name = "Buscar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
