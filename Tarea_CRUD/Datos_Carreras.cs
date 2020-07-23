@@ -120,7 +120,7 @@ namespace Tarea_CRUD
                 string codgio = djcarrera[2, fila].Value.ToString();
                 string confirmMessage = string.Format("¿Está seguro de que desea eliminar la materia de " + " "+materia+"?"
                     , grid.Rows[fila].Cells[2].Value);
-                if (MessageBox.Show(confirmMessage, "Eliminar Persona", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show(confirmMessage, "Eliminar Materia", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     MessageBox.Show("Registro Eliminado Exitosamente");
                     grid.Rows.RemoveAt(fila);
@@ -137,7 +137,7 @@ namespace Tarea_CRUD
                 
                 string confirmMessage = string.Format("¿Está seguro de que desea Modificar  la materia de "+" "+materia+"?"
                     , grid.Rows[fila].Cells[2].Value);
-                if (MessageBox.Show(confirmMessage, "Eliminar Persona", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show(confirmMessage, "Modficar Materia", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     DatosCarrera H = Tarea_CRUD.Modelo.DatosCarreraDAO.getcarrera(codgio);
                     FrmModificar modificar = new FrmModificar(H);
