@@ -21,7 +21,7 @@ namespace Tarea_CRUD
             DataTable dt = Tarea_CRUD.Modelo.DatosCarreraDAO.getAll();
             this.cmCodigo.DataSource = dt;
             this.cmCodigo.ValueMember = "Código";
-            this.cmCodigo.DisplayMember = "Materia";
+            this.cmCodigo.DisplayMember = "Código";
 
 
         }

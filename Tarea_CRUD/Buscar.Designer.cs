@@ -158,9 +158,9 @@
             this.label6.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(12, 33);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(192, 17);
+            this.label6.Size = new System.Drawing.Size(186, 17);
             this.label6.TabIndex = 69;
-            this.label6.Text = "Selecione la materia a buscar ";
+            this.label6.Text = "Selecione el Código a buscar ";
             // 
             // Buscar
             // 
