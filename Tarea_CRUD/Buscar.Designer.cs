@@ -38,7 +38,6 @@
             this.txtcreditos = new System.Windows.Forms.TextBox();
             this.txtmteria = new System.Windows.Forms.TextBox();
             this.txtcodigo = new System.Windows.Forms.TextBox();
-            this.btnCargar = new System.Windows.Forms.Button();
             this.cmCodigo = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -142,16 +141,6 @@
             this.txtcodigo.Size = new System.Drawing.Size(282, 22);
             this.txtcodigo.TabIndex = 20;
             // 
-            // btnCargar
-            // 
-            this.btnCargar.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCargar.Location = new System.Drawing.Point(543, 19);
-            this.btnCargar.Name = "btnCargar";
-            this.btnCargar.Size = new System.Drawing.Size(164, 44);
-            this.btnCargar.TabIndex = 71;
-            this.btnCargar.Text = "Cargar";
-            this.btnCargar.UseVisualStyleBackColor = true;
-            // 
             // cmCodigo
             // 
             this.cmCodigo.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
@@ -177,8 +166,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(749, 333);
-            this.Controls.Add(this.btnCargar);
+            this.ClientSize = new System.Drawing.Size(550, 333);
             this.Controls.Add(this.cmCodigo);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -212,7 +200,6 @@
         private System.Windows.Forms.TextBox txtcreditos;
         private System.Windows.Forms.TextBox txtmteria;
         private System.Windows.Forms.TextBox txtcodigo;
-        private System.Windows.Forms.Button btnCargar;
         private System.Windows.Forms.ComboBox cmCodigo;
         private System.Windows.Forms.Label label6;
     }
