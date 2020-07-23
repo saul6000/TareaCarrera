@@ -43,11 +43,11 @@ namespace Tarea_CRUD
 
 
                     else
-                        MessageBox.Show("No se pudo agregar el registro");             
+                        MessageBox.Show("No se pudo actualizar los cambios ");             
             }
             catch
             {
-
+                MessageBox.Show("Formato no aceptado");
             }
             finally
             {
