@@ -179,7 +179,7 @@
             this.MaximizeBox = false;
             this.Name = "FrmModificar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmModificar";
+            this.Text = "Modificar Materia ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
