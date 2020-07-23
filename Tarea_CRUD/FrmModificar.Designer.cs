@@ -177,6 +177,7 @@
             this.Controls.Add(this.txtmteria);
             this.Controls.Add(this.txtcodigo);
             this.Name = "FrmModificar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmModificar";
             this.ResumeLayout(false);
             this.PerformLayout();

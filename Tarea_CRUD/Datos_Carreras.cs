@@ -122,7 +122,7 @@ namespace Tarea_CRUD
                     , grid.Rows[fila].Cells[2].Value);
                 if (MessageBox.Show(confirmMessage, "Eliminar Materia", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
-                    MessageBox.Show("Registro Eliminado Exitosamente");
+                    MessageBox.Show("Materia Eliminada Exitosamente");
                     grid.Rows.RemoveAt(fila);
                     int x = Tarea_CRUD.Modelo.DatosCarreraDAO.btbdelete(codgio);
                 }

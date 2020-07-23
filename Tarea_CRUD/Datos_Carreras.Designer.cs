@@ -252,6 +252,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(946, 548);
             this.Controls.Add(this.btbbusqueda);
             this.Controls.Add(this.txtdelete);
@@ -271,7 +272,8 @@
             this.Controls.Add(this.txtmteria);
             this.Controls.Add(this.txtcodigo);
             this.Name = "Datos_Carreras";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Datos de Carrera ";
             this.Load += new System.EventHandler(this.Datos_Carreras_Load);
             ((System.ComponentModel.ISupportInitialize)(this.djcarrera)).EndInit();
             this.ResumeLayout(false);
